@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/chooseButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Choose Photo"
+        />
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:src="@drawable/shahrar"
+        android:id="@+id/imageId"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+
+    <EditText
+        android:layout_margin="5dp"
+        android:soundEffectsEnabled="true"
+        android:gravity="center"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="File name"
+        android:id="@+id/fileNameId"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressbarId"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/saveButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Save Photo"
+        />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/showButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Show Photos"
+        />
+
+</LinearLayout>

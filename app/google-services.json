@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "758278340974",
+    "firebase_url": "https://fire-image-aa803.firebaseio.com",
+    "project_id": "fire-image-aa803",
+    "storage_bucket": "fire-image-aa803.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758278340974:android:e8ee5f7db01ffdf6f4017f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758278340974-3b4tn7j98qkvg5i4gd5cqq0o3hudpntg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCyIne4m0p9KMGtmZt56y5fFM3LXTywAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758278340974-3b4tn7j98qkvg5i4gd5cqq0o3hudpntg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
